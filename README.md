@@ -30,7 +30,7 @@ Construído com uma arquitetura serverless robusta na AWS e a inteligência da O
 *   **React:** A estrela do nosso frontend! Com ele, construímos uma interface de usuário moderna, responsiva e super agradável de usar.
 
 ## 🗺️ Diagrama de Arquitetura
-<img width="2556" height="1542" alt="mermaid-diagram-2025-08-14-105300" src="https://github.com/user-attachments/assets/7b7079c5-3531-4921-bce4-d4b8333badb7" />
+![DiagramaAWS](https://github.com/user-attachments/assets/99e11f5f-0b48-485d-850d-02d1ac0dfe28)
 
 
 Este diagrama visualiza o fluxo de dados e a interação harmoniosa entre os serviços AWS e a OpenAI, desde o momento em que você envia seu texto até o feedback mágico aparecer na tela.
