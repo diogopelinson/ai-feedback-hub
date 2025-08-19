@@ -65,9 +65,7 @@ Com o frontend rodando localmente e o backend configurado na AWS, você pode:
 *   **Acessar o frontend no navegador:** Digite um texto na caixa e clique em 'Enviar'.
 *   **Verificar o feedback:** O feedback da IA deve aparecer na tela, indicando que a comunicação entre frontend, API Gateway e Lambda/OpenAI está funcionando perfeitamente.
 
-## 💖 Contribuição
-
-Sinta-se à vontade para explorar, aprimorar e contribuir com este projeto! Sua criatividade é bem-vinda para tornar o AI Feedback Hub ainda mais incrível.
+para explorar, aprimorar e contribuir com este projeto! Sua criatividade é bem-vinda para tornar o AI Feedback Hub ainda mais incrível.
 
 ## 📄 Licença
 
