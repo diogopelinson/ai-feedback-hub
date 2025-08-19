@@ -1,0 +1,116 @@
+/* Fundo geral */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #123248;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centralizar conteúdo */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card central */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 550px;
+  animation: slideUp 0.6s ease;
+}
+
+/* Título e subtítulo */
+.title {
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+  color: #2072d8;
+}
+
+.subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+/* Formulário */
+.form textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  resize: none;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form textarea:focus {
+  outline: none;
+  border-color: #20a7d8;
+}
+
+.form button {
+  width: 100%;
+  padding: 1rem;
+  background: #20a7d8;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.form button:hover:not(:disabled) {
+  background: #14238c;
+  transform: translateY(-2px);
+}
+
+.form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Caixa de feedback */
+.feedback-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-left: 5px solid #4f46e5;
+  border-radius: 8px;
+  animation: fadeIn 0.5s ease;
+}
+
+.feedback-box h3 {
+  margin-top: 0;
+  color: #4f46e5;
+}
+
+.feedback-box p {
+  margin: 0;
+  color: #374151;
+  white-space: pre-wrap;
+}
+
+/* Animações */
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
