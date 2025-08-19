@@ -3,7 +3,7 @@
 ## 🚀 Desvende o Poder da Sua Escrita com Inteligência Artificial!
 
 Bem-vindo ao **AI Feedback Hub**, uma plataforma revolucionária que transforma a maneira como você aprimora seus textos.
-Desenvolvida por mim, Diogo Pelinson.
+Desenvolvida por mim, **Diogo Pelinson**.
 
 Está Cansado de revisões demoradas e incertas? Prepare-se para receber feedback instantâneo, inteligente e super detalhado, tudo isso impulsionado pela magia da Inteligência Artificial!
 
