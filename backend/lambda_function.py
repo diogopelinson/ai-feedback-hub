@@ -17,19 +17,14 @@ def get_secret(secret_name):
         print(f"Erro ao buscar o secret: {e}")
         raise e
 
-# Nome do secret que você criou no Secrets Manager
 OPENAI_SECRET_NAME = os.environ.get('OPENAI_SECRET_NAME', 'openai-api-key-feedback-hub')
 
-# Pega a chave da OpenAI do Secrets Manager
-# É importante que a função Lambda tenha permissão para acessar este secret
 secrets = get_secret(OPENAI_SECRET_NAME)
 openai_api_key = secrets.get('OPENAI_API_KEY')
 
-# Inicializa o cliente OpenAI com a chave obtida
 client = OpenAI(api_key=openai_api_key)
 
 def lambda_handler(event, context):
-    # Define os cabeçalhos CORS para todas as respostas
     headers = {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',
