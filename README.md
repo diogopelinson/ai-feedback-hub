@@ -38,10 +38,12 @@ Construído com uma arquitetura serverless robusta na AWS e a inteligência da O
 
 Este diagrama visualiza o fluxo de dados e a interação harmoniosa entre os serviços AWS e a OpenAI, desde o momento em que você envia seu texto até o feedback mágico aparecer na tela.
 
-## 🌐 Projeto Deploy
+## 🌐 Projeto no Deploy
 
 Projeto Online pra você pode acessar e testar o AI Feedback Hub diretamente aqui:
 https://d2yr5vo2914kpt.cloudfront.net
+
+---
 
 ## 🚀 Como Rodar o Projeto (Básico)
 
